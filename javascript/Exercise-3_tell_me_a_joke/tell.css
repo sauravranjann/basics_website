@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: #222222;
+    color: white;
+    opacity: 0.8;
+}
+body{
+    background: linear-gradient(to right, rgb(14, 184, 231), rgb(28, 29, 4));
+    height: 100vh;
+    width:100vw;
+}
+.btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 10px ;
+    background-color: #222222;
+    color: white;
+    opacity: 0.8;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgb(19, 28, 24);
+
+} 
+.joke{
+    border: 2px solid rgb(49, 23, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    animation: both;
+    background-color: #222222;   
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8px ;
+}
+

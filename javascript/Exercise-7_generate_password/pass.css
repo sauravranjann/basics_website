@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(pass.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 238%;
+}
+h1{
+    background-color: rgb(122, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0.8;
+    color: rgb(241, 241, 241);
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 124px;
+}
+#btn1{
+    margin: 20px;
+    padding: 20px;
+}
+#btn2 {
+    margin: 20px;
+    padding: 20px;
+}
+#btn3 {
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(214, 179, 179), rgb(65, 64, 64));
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(219, 66, 66), rgb(65, 64, 64));
+}
+#pass{
+background: linear-gradient(to right, rgb(214, 179, 179), rgb(65, 64, 64));
+    border: 2px solid red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+}

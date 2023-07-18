@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(man.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    color: rgb(141, 220, 43);
+    background-repeat: none;
+   
+}
+h1{
+font-family: 'Creepster', cursive;
+font-size: 4rem;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: rgb(28, 186, 226);
+}

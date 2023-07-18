@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(clockbg.jpg);
+    background-size: 100% 250%;
+    font-size: 200px;
+    color: white;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sa{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(65, 64, 64));
+    top: 152px;
+    opacity: 0.4;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, rgb(0, 204, 255), rgb(65, 64, 64));
+    position: absolute;
+    right: 100px;
+    opacity: 0.4;
+    margin: auto;
+    animation: GFG 5s infinite linear;
+
+}
+
+ 
+
+ @keyframes GFG {
+     0% {
+         transform: rotate(0deg) translateY(200px) rotate(0deg);
+     }
+
+     100% {
+         transform: rotate(360deg) translateY(200px) rotate(-360deg);
+     }
+ }
